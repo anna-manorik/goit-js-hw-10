@@ -9,4 +9,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{"notiflix":"hWOm"}],"Focm":[function(require,module,exports) {
 "use strict";require("./css/styles.css");var e=t(require("./fetchCountries.js"));function t(e){return e&&e.__esModule?e:{default:e}}const r=300,n=document.getElementById("search-box"),u=document.querySelector(".country-info"),c=document.querySelector(".country-list");n.addEventListener("input",_.debounce(t=>{if(""===n.value.trim())return c.innerHTML="",void(u.innerHTML="");(0,e.default)(n.value)},300));
 },{"./css/styles.css":"krre","./fetchCountries.js":"SvwL"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.2c2097b0.js.map
+//# sourceMappingURL=/goit-js-hw-10/src.2c2097b0.js.map
